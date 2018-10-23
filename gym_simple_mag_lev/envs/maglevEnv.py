@@ -1,4 +1,4 @@
-class FooEnv(gym.Env):
+class MagLevEnv(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self):

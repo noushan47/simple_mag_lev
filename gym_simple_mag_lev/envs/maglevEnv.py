@@ -11,7 +11,7 @@ class MagLevEnv(gym.Env):
     def _reset(self):
         pass
 
-    def _render(self, mode='human', close=False):
+    def _render(self):
         pass
 
     def _take_action(self, action):
